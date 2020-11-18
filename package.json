@@ -1,0 +1,25 @@
+{
+  "name": "jamesai",
+  "version": "1.0.0",
+  "description": "Fun Office Slack AI bot",
+  "main": "index.js",
+  "scripts": {
+    "ai": "nodemon ai.js",
+    "slack": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamrpostjr/JamesAI.git"
+  },
+  "author": "Adam Post",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adamrpostjr/JamesAI/issues"
+  },
+  "homepage": "https://github.com/adamrpostjr/JamesAI#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "node-wit": "^6.0.0"
+  }
+}
